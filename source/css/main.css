@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: opensansLight;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensansBold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: MBLogoFont;
+    src: url(../fonts/majalla.ttf);
+}
+@font-face {
+    font-family: KAUFMANN;
+    src: url(../fonts/KAUFMANN.TTF);
+}
+.KAUFMANN{font-family:KAUFMANN,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.font24{font-size:52px}
+body{font-family:opensansLight,"Helvetica Neue",Helvetica,Arial,sans-serif;	}
+.font-bold{font-family:opensansBold,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+/* ######## Top bar ######## */
+.top-bar{height:60px;background:url(../images/wave.png) repeat-x;color:#fff}
+.contact_icon{background:url(../images/contact-icon.png) no-repeat 0 12px;display:inline-block;padding:18px 20px 5px 36px}
+.likes{padding:0 20px}
+
+/* login-bar */
+.login-bar{background:url(../images/decorator.png) no-repeat top center;padding:30px 0 10px 0;color:#834700}
+.waveY{background:url(../images/yellow-wave.png) repeat-x left bottom #fabe28;}
+.login-bar a{color:#834700;text-transform:uppercase}
+.login-bar a:hover{text-decoration:none;color:#583000}
+
+/* ######## navbar-fixed-top ######## */
+nav.navbar-fixed-top{top:60px}
+.navbar{background:#fff !important;opacity:0.9}
+.navbar-default{background:none;height:100px;border-top:none;border-right:none;border-left:none}
+.navbar-brand{background:url(../images/logo.png) no-repeat 15px 10px; padding:20px 0 0 95px;height:100px;line-height:60px;}
+.navbar-nav {margin-top:25px}
+.navbar-toggle{margin-top:30px}
+.navbar-default .navbar-nav>li>a{background:url(../images/dotted-lineB.png) no-repeat right center}
+.navbar-default .navbar-nav li:last-child a{background:none}
+.navbar-brand{font-family:MBLogoFont,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:46px;color:#000}
+.navbar-brand span i{font-size:14px;margin:0;line-height:10px;display:block;color:#000;margin:-13px 0 0;}
+.navbar-brand span{line-height:10px}
+/* carousel */
+.carousel{margin:0;z-index:0;position:relative}
+.turquoise_text{font-size:36px;text-transform:uppercase;color:#00c0a3;line-height:40px}
+.black_large_text{font-family:opensansBold,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:34px}
+.glyphicon-search{font-size:22px}
+
+/* section */
+/* form_search */
+.form_search{margin:0;background:#ebebeb;padding:20px 0;font-size:13px }
+.mar9px{margin-top:9px}
+.marB10px{margin-bottom:10px}
+.mar15px{margin-top:15px}
+/* searchbyID */
+.searchbyID{position:absolute;top:350px;width:400px;left:110px}
+.search-bar{background:#bfc0bd;border-radius:8px;padding:15px 10px}
+#searchForm{margin-top:-180px;z-index:1;position:relative}
+
+section{margin-bottom:25px}
+p{padding:10px 0}
+/* successstories */
+#successstories .container{border-bottom:1px dashed #c9c9c9;border-top:1px dashed #c9c9c9;padding-bottom:80px;padding-top:60px}
+.padTB20{padding:30px 0}
+
+
+/* ring */
+.ring .content{background:#00c176;z-index:-1;position:relative;margin:-18px 0 0 0;padding:60px 40px;color:#fff;}
+.brgr{background:url(../images/ring.png) no-repeat center center;height:85px;z-index:1;position:relative;padding:0 60px} 
+.groom,.bride{font-size:24px;color:#FC0;display:inline-block;padding:20px}
+.groom{font-family:KAUFMANN,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:38px;}
+.bride{font-family:KAUFMANN,"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:38px;float:right}
+.ring{  position: relative;z-index: 1; margin-right: -70px;}
+.CustmerQuotes{padding-left:90px;line-height:40px;color:#474747;background:url(../images/heart-icon.png) no-repeat right bottom}
+
+
+
+/* ####### contact-container ####### */
+.contact-container form input{width:100%}
+.btn-primary{background:#efa915;text-transform:uppercase;border-color:#efa915;border-radius:2px;}
+#contact input,textarea{border-radius:0 !important;background:#f3f0f0 !important}
+.contact-container .small{text-transform:lowercase;font-size:14px;padding:0;margin:0;line-height:18px}
+.cellrow span{display:table-cell;padding:0 20px 0 0}
+
+.entercodebtn{background:#e5e5e5;border-radius:0;}
+/*.refresh-icon{background:url(../images/refresh-icon.png) no-repeat center right #cecece;padding:10px;display:inline-block;height:40px;}
+*/
+/* ####### footer ####### */
+footer {position:relative}
+footer .footer-top-bar{background:#f6f6f6;padding:100px 0 0 0}
+.footer-top-bar .container{border-top:1px solid #e5e2e2;padding-top:0;padding-bottom:0px }
+.footer-top-bar .container .pad40{padding-top:40px;padding-bottom:40px;}
+.footer-bottom-bar{background:#00c0a3;color:#fff;padding:10px 0}
+.borderLR{border-left:1px solid #e5e2e2;border-right:1px solid #e5e2e2}
+.music{position:absolute;top:40px;left:45%;}
+.footer-bottom-bar a{color:#fff;}
+.footer-top-bar ul{margin:0;padding:0}
+.footer-top-bar h5{font-weight:bold;text-transform:uppercase}
+.footer-top-bar ul li{list-style:none}
+.footer-top-bar ul li a{color:#9c9c9c;font-size:13px}
+
+/* animation */
+
+ header.smaller  nav.navbar-fixed-top{top:0;  -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+/* common */
+.uppercase{text-transform:uppercase}
+.container h1{text-transform:uppercase;font-size:34px}
+.float-right{float:right}
+.smallertxt{font-size:14px !important;text-transform:capitalize}
+
+@media (max-width:768px){
+	.likes{display:none}
+	.ring{margin-right:0}	
+	.smallertxt{display:block;clear:both;float:none}
+}
+
+
+
+
