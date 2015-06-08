@@ -119,6 +119,11 @@ footer .footer-top-bar{background:#f6f6f6;padding:100px 0 0 0}
 .float-right{float:right}
 .smallertxt{font-size:14px !important;text-transform:capitalize}
 
+li,ul{list-style-type:none}
+.navbar-brand span{color:#474647}
+.navbar-default .navbar-nav>li>a{color:#888;font-size:15px}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color:#fff;color:#00c0a3}
+
 @media (max-width:768px){
 	.likes{display:none}
 	.ring{margin-right:0}	

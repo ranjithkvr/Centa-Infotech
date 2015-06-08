@@ -11,8 +11,9 @@
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
+		var offsetObj = $($anchor.attr('href')).offset().top ;
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top 
+            scrollTop: offsetObj 
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
 		
