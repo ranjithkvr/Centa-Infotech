@@ -11,12 +11,22 @@
 $(function() {
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
+		var $anchorHtml = $anchor.html();
 		var offsetObj = $($anchor.attr('href')).offset().top ;
+		if($anchorHtml == "Contact"){		
+			var offsetObj = offsetObj - 100 ;
+			 $('html, body').stop().animate({
+            scrollTop: offsetObj 
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();		
+			}
+		else
+		{
         $('html, body').stop().animate({
             scrollTop: offsetObj 
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
-		
+		}
     });
 });
 
