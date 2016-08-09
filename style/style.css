@@ -85,9 +85,21 @@ footer hr{margin: 5px 0}
 }
 
 .carousel-indicators {
-    bottom: 60px;
+    bottom: 140px;
 }
 
 .carousel-caption{
     top: 280px;
+}
+
+body .midBar{
+    background: #fff;
+    padding-top: 20px;
+    color:#000;
+    margin-top: -160px;
+}
+body .midBar .row div{
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
