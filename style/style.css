@@ -103,6 +103,9 @@ footer hr{margin: 5px 0}
 .footer p{
    margin: 10px 0
 }
+.footer a{
+    color:#000
+}
 body .midBar{
     background: #fff;
     padding-top: 20px;
@@ -117,4 +120,16 @@ body .midBar .row div{
 
 hr{
     border-color: #e5e5e5
+}
+
+.btn-pink{
+    color: #fff;
+    background: #ff536d;
+    border-radius: 25px;
+    padding:15px 60px;
+}
+
+.btn-pink:hover{
+    color: #fff;
+    background: #fc3654;
 }
